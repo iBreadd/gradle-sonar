@@ -18,7 +18,7 @@ jobs:
         with:
           java-version: 17
           distribution: 'zulu' # Alternative distribution options are available
-      - name: Cache SonarCloud packages
+      - name: chmod +x gradlew
         uses: actions/cache@v3
         with:
           path: ~/.sonar/cache
